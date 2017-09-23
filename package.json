@@ -6,6 +6,7 @@
   "author": "=paolo.chiabrera <=paolo.chiabrera@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "standard --fix",
     "start": "node index.js"
   },
   "dependencies": {
@@ -19,5 +20,8 @@
     "helmet": "^3.8.1",
     "morgan": "^1.8.2",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }

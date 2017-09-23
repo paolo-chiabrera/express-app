@@ -1,4 +1,4 @@
-const convict = require('convict');
+const convict = require('convict')
 
 const conf = convict({
   env: {
@@ -22,8 +22,8 @@ const conf = convict({
       }
     }
   }
-});
+})
 
-conf.validate({allowed: 'strict'});
+conf.validate({allowed: 'strict'})
 
-module.exports = conf;
+module.exports = conf
