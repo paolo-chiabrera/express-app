@@ -6,9 +6,9 @@
   "author": "=paolo.chiabrera <=paolo.chiabrera@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint **/*.js",
+    "lint": "eslint --fix **/*.js",
     "start": "node index.js",
-    "test": "mocha --require test/mocha.config.js test/**/*.test.js"
+    "test": "mocha"
   },
   "dependencies": {
     "compression": "^1.7.0",
@@ -26,6 +26,8 @@
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
     "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "mocha": "^4.0.1"
   }
 }
